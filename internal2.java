@@ -4,9 +4,9 @@ class internal2
 	public static void main(String[] args)
 	{
 		Scanner sc =new Scanner(System.in);
-		double a= sc.nextFloat();
-		double b= sc.nextFloat();
-		double c= sc.nextFloat();
+		double a= sc.nextDouble();
+		double b= sc.nextDouble();
+		double c= sc.nextDoube();
 		double d=(b*b)-(4*a*c);
 		double root1,root2;
 		if(d>0)
